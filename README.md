@@ -30,5 +30,5 @@ MyNamespace.singleTon = (function () {
   }
 })()
 
-MyNamespace.singleTon.getInstance().publicMethod()
+MyNamespace.singleTon.getInstance().publicMethod() // '私有函数'
 ```
